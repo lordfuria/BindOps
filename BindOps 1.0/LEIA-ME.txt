@@ -1,0 +1,32 @@
+BindOps v1.0
+Criador: lord.furia
+
+O QUE E
+O BindOps e um sistema de binds para GTA San Andreas Multiplayer (SA-MP),
+desenvolvido em Lua para MoonLoader 0.026.5.
+
+PARA QUE SERVE
+Permite criar atalhos de teclado personalizados para enviar comandos ou
+mensagens no SA-MP. Possui 5 abas renomeaveis e 100 espacos para binds.
+Cada bind pode receber nome, tecla, comando ou mensagem e ser ativado ou
+desativado individualmente.
+
+RECURSOS
+- Painel aberto pelo comando /bind.
+- Tema roxo escuro.
+- Abas e binds renomeaveis.
+- Somente os binds da aba selecionada ficam ativos.
+- Configuracoes salvas mesmo apos fechar, desconectar ou recarregar scripts.
+- Bloqueio durante chat, dialogos, pausa ou jogo fora de foco.
+- Compatibilidade planejada para futura integracao ao PlayerOps.
+
+INSTALACAO
+1. Tenha MoonLoader 0.026.5 e as bibliotecas mimgui instaladas.
+2. Copie BindOps.luac para a pasta moonloader do GTA San Andreas.
+3. Entre no SA-MP e digite /bind.
+
+CONFIGURACAO
+As preferencias do jogador sao armazenadas automaticamente em:
+moonloader/config/BindOps.ini
+
+Nao apague esse arquivo se quiser manter seus binds.
